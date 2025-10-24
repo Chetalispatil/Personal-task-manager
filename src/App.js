@@ -59,7 +59,9 @@ function App() {
   }, [tasks, filters]);
 
   return (
-    <div className="app" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/bg.jpg)` }}>
+    <div className="app" style={{ 
+  background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' 
+      }}>
       <header>
         <h1>Personal Task Manager</h1>
         <p className="tag">Manage Your stress by making Task Manager list</p>

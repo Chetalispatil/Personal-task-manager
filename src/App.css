@@ -12,6 +12,19 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.task-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+.chk {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
 .app {
   max-width: 1000px;
   margin: 28px auto;

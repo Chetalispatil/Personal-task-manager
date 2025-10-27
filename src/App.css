@@ -1,8 +1,16 @@
+:root {
+  --bg: #f0f9ff;        
+  --card: rgba(255, 255, 255, 0.9);
+  --muted: #475569;
+  --accent: #f97316;    
+  --accent-alt: #38bdf8;
+  --danger: #ef4444;
+}
+
 * {
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .task-left {
   display: flex;
   align-items: center;
@@ -18,12 +26,14 @@
 }
 
 .app {
-  background: var(--card);
   max-width: 1000px;
   margin: 28px auto;
   padding: 25px;
+  background: var(--card);
   border-radius: 15px;
-  background-size: cover; 
+
+  /* Background image properties */
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
